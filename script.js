@@ -1,10 +1,11 @@
 // Member data
 const members = [
-    { name: 'Karthik(monu)', role: 'Chairperson', photo: 'karthik.jpg' },
-    { name: 'Anoop', role: 'Vice Chairperson', photo: 'anoop.jpg' },
-    { name: 'Gokul Das', role: 'Treasurer', photo: 'gokul.jpg' },
+    { name: 'Karthik', role: 'Chairperson', photo: 'karthik.jpg' },
     { name: 'Achu', role: 'Secretary', photo: 'achu.jpg' },
-    { name: 'kiran(Vava)', role: 'Members', photo: 'vava.jpg' },
+    { name: 'Gokul Das', role: 'Treasurer', photo: 'gokul.jpg' },
+    { name: 'Anoop', role: 'Vice Chairperson', photo: 'anoop.jpg' },
+    { name: 'Achu', role: 'Secretary', photo: 'achu.jpg' },
+    { name: 'kiran', role: 'Members', photo: 'vava.jpg' },
     { name: 'Balu', role: 'Members', photo: 'balu.jpg' },
     { name: 'Amalraj', role: 'Members', photo: 'amalraj.jpg' },
     { name: 'Rahul', role: 'Members', photo: 'rahul.jpg' },

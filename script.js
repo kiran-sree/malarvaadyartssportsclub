@@ -4,7 +4,6 @@ const members = [
     { name: 'Achu', role: 'Secretary', photo: 'achu.jpg' },
     { name: 'Gokul Das', role: 'Treasurer', photo: 'gokul.jpg' },
     { name: 'Anoop', role: 'Vice Chairperson', photo: 'anoop.jpg' },
-    { name: 'Achu', role: 'Secretary', photo: 'achu.jpg' },
     { name: 'kiran', role: 'Members', photo: 'vava.jpg' },
     { name: 'Balu', role: 'Members', photo: 'balu.jpg' },
     { name: 'Amalraj', role: 'Members', photo: 'amalraj.jpg' },

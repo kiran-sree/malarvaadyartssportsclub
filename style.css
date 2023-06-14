@@ -1,0 +1,207 @@
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body styles */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  /* logo heading */
+  
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo img {
+    width: 120px; /* Adjust the desired width */
+    height: auto; /* Preserve aspect ratio */
+    margin-right: 10px; /* Adjust the spacing */
+  }
+  
+  .logo h1 {
+    font-size: 24px; /* Adjust the font size */
+    font-weight: bold;
+  }
+  
+  
+  /* Header styles */
+  header {
+    background-color: #222;
+    color: #fff;
+    padding: 10px 0;
+  }
+  
+  .logo {
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .menu li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  .menu li:last-child {
+    margin-right: 0;
+  }
+  
+  .menu li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  /* Member list */
+  
+  .member-list {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    
+    .member-item {
+      width: 200px;
+      text-align: center;
+      margin: 20px;
+    }
+    
+    .member-item .member-name {
+      font-weight: bold;
+    }
+    
+  
+  /* Section styles */
+  section {
+    padding: 40px 0;
+  }
+  
+  section h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  section p {
+    line-height: 1.6;
+  }
+  
+  /* Form styles */
+  form {
+    margin-top: 20px;
+  }
+  
+  form input,
+  form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  form textarea {
+    height: 120px;
+  }
+  
+  form button {
+    padding: 10px 20px;
+    background-color: #222;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  /* css of events1 image space  */
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Adjust the number of columns as needed */
+    gap: 10px; /* Adjust the gap between images */
+  }
+  
+  .gallery-item {
+    position: relative;
+  }
+  
+  .gallery-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .gallery-item img:hover {
+    opacity: 0.8; /* Add hover effect if desired */
+  }
+
+  /* text align */
+
+  #about p {
+    text-align: justify;
+  }
+  
+  #about .align-left {
+    text-align: left;
+  }
+  
+  #about .align-right {
+    text-align: right;
+  }
+  
+  
+  /* Footer styles */
+  footer {
+    background-color: #222;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+  footer p {
+    font-size: 14px;
+  }
+
+  /* member data size edit */
+  .member-photo img {
+    width: 200px; /* Adjust the width as needed */
+    height: auto; /* This will maintain the aspect ratio */
+  }
+  
+  
+  /* Media queries */
+  @media (max-width: 767px) {
+    .container {
+      padding: 10px;
+    }
+    
+    .logo {
+      font-size: 24px;
+    }
+    
+    .menu {
+      text-align: center;
+    }
+    
+    .menu li {
+      display: block;
+      margin: 10px 0;
+    }
+    
+    form input,
+    form textarea {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+  }
+  

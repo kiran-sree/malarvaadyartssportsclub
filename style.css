@@ -105,9 +105,6 @@
 }
   /* Header styles */
   header {
-    background-image: url("background.jpg"); /* Replace "your-image.jpg" with the path to your background image */
-    background-position: center;
-    background-size: cover;
     background-color: #222;
     color: #fff;
     padding: 10px 0;
